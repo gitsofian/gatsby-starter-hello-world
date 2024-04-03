@@ -9,4 +9,9 @@
  */
 module.exports = {
   plugins: [],
+  siteMetadata:{
+    title: "web buch zenit",
+    description: "web dev portefolio",
+    copyright: "copyright 2021"
+  }
 }
