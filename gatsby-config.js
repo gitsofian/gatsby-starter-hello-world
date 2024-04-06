@@ -32,6 +32,7 @@ module.exports = {
   siteMetadata:{
     title: "web buch zenit",
     description: "web dev portefolio",
-    copyright: "copyright 2021"
+    copyright: "copyright 2021",
+    contact: "sofian.me@gmail.com"
   },
 }
