@@ -9,6 +9,7 @@
  */
 module.exports = {
   plugins: [
+    "gatsby-transformer-remark",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -26,10 +27,6 @@ module.exports = {
         // Path to the directory
         path: `${__dirname}/src/projects/`,
       },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {},
     },
   ],
   siteMetadata:{
