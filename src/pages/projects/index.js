@@ -5,7 +5,7 @@ import { graphql, Link } from 'gatsby'
 
 
 export default function Projects({data}) {
-  console.log(data)
+  // console.log(data)
   const projects = data.projects.nodes
   const contact = data.contact.siteMetadata.contact
 
