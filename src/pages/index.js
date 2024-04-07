@@ -6,7 +6,7 @@ import { Link, graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 export default function Home({data}) {
-  console.log(data)
+  // console.log(data)
   const img_banner = getImage(data.file.childImageSharp.gatsbyImageData)
 
   return (
